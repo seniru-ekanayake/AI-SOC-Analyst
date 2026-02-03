@@ -1,0 +1,14 @@
+{
+    "known_ips": {
+        "192.168.1.5": {"description": "Marketing Laptop", "risk": "low"},
+        "192.168.1.10": {"description": "CEO Laptop", "risk": "medium"},
+        "192.168.1.15": {"description": "Finance Server", "risk": "high"},
+        "192.168.1.20": {"description": "UNKNOWN DEVICE", "risk": "critical"}
+    },
+    "users": {
+        "admin": {"role": "IT Admin", "location": "Server Room"},
+        "hr_manager": {"role": "HR", "location": "Office A"},
+        "ceo": {"role": "Executive", "location": "Penthouse"},
+        "guest": {"role": "Visitor", "location": "Lobby"}
+    }
+}

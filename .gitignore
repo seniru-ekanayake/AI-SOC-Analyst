@@ -1,0 +1,12 @@
+# Security
+.env
+
+# Database
+
+# Python Junk
+__pycache__/
+*.pyc
+
+# System Junk
+.DS_Store
+Thumbs.db
