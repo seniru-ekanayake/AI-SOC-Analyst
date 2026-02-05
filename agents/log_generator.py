@@ -3,7 +3,7 @@ import random
 import time
 from datetime import datetime
 
-DB_FILE = "soc_database.db"
+DB_FILE = "data/soc_database.db"
 
 # CONFIGURATION 
 WEIGHTS = [70, 15, 10, 5] 

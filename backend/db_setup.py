@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_FILE = "soc_database.db"
+DB_FILE = "data/soc_database.db"
 
 def init_db():
     conn = sqlite3.connect(DB_FILE)

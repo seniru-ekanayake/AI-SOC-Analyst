@@ -3,8 +3,8 @@ import time
 import json
 import os
 
-DB_FILE = "soc_database.db"
-THREAT_DB_FILE = "threat_db.json"
+DB_FILE = "data/soc_database.db"
+THREAT_DB_FILE = "data/threat_db.json"
 
 try:
     with open(THREAT_DB_FILE, "r") as f:

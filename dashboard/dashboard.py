@@ -7,7 +7,7 @@ import random
 
 # CONFIGURATION
 st.set_page_config(page_title="AI SOC | Executive View", page_icon="🛡️", layout="wide")
-DB_FILE = "soc_database.db"
+DB_FILE = "data/soc_database.db"
 
 st.markdown("""
     <style>

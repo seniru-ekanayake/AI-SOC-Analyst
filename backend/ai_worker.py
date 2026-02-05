@@ -7,8 +7,8 @@ from google import genai
 
 load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
-DB_FILE = "soc_database.db"
-THREAT_DB_FILE = "threat_db.json" 
+DB_FILE = "data/soc_database.db"
+THREAT_DB_FILE = "data/threat_db.json" 
 
 if not API_KEY:
     print("❌ ERROR: No API Key found in .env")
